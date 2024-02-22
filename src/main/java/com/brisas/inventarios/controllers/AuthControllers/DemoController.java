@@ -1,4 +1,4 @@
-package com.brisas.inventarios.controllers;
+package com.brisas.inventarios.controllers.AuthControllers;
 
 
 import org.springframework.web.bind.annotation.PostMapping;

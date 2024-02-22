@@ -1,4 +1,4 @@
-package com.brisas.inventarios.controllers;
+package com.brisas.inventarios.controllers.AuthControllers;
 
 import com.brisas.inventarios.request.AuthService;
 import com.brisas.inventarios.request.LoginRequest;
