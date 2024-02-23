@@ -1,10 +1,8 @@
 package com.brisas.inventarios.controllers;
 
-import com.brisas.inventarios.models.Dispositivo;
 import com.brisas.inventarios.models.Pantalla;
 import com.brisas.inventarios.services.PantallaService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

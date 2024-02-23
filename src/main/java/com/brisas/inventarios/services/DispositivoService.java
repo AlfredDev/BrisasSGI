@@ -14,11 +14,6 @@ public class DispositivoService {
     @Autowired
     private DispositivoRepository dispositivoRepository;
 
-
-    public Optional<Dispositivo> getDispositivoById(Long id) {
-        return dispositivoRepository.findById(id);
-    }
-
     public Dispositivo saveDispositivo(Dispositivo dispositivo) {
         return dispositivoRepository.save(dispositivo);
     }
