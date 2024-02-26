@@ -29,4 +29,11 @@ public class Empleado {
         this.apellidoPaterno = apellidoPaterno;
         this.departure = departure;
     }
+
+    public Empleado(Long id, String nombre, String apellidoMaterno, String apellidoPaterno) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellidoMaterno = apellidoMaterno;
+        this.apellidoPaterno = apellidoPaterno;
+    }
 }

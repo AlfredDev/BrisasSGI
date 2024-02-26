@@ -1,4 +1,5 @@
 package com.brisas.inventarios.controllers;
+
 import com.brisas.inventarios.models.Ipad;
 import com.brisas.inventarios.services.IpadServices;
 import org.springframework.beans.factory.annotation.Autowired;

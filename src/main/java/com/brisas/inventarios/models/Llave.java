@@ -43,7 +43,7 @@ public class Llave {
         this.expiracion = expiracion;
         this.fdu = fdu;
         this.edificio = edificio;
-        Habitaciones = habitaciones;
+        this.Habitaciones = habitaciones;
         this.estado = estado;
         this.empleado = empleado;
     }
@@ -60,4 +60,6 @@ public class Llave {
         Habitaciones = habitaciones;
         this.estado = estado;
     }
+
+
 }
