@@ -46,7 +46,6 @@ public class LlaveController {
         }
 
         llaveService.eliminarLlave(id);
-
         return ResponseEntity.noContent().build();
     }
 
