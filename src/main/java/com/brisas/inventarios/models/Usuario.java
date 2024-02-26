@@ -31,6 +31,7 @@ public class Usuario implements UserDetails {
     String firstname;
     String password;
     @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     Role role;
 
     @Override
