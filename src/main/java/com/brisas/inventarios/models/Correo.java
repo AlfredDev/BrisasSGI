@@ -29,7 +29,7 @@ public class Correo {
         this.estado = estado;
     }
 
-    public  Correo(){
+    public Correo() {
 
     }
 
