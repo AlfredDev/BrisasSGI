@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class PantallaService  extends  DispositivoService{
+public class PantallaService extends DispositivoService {
     @Autowired
     PantallaRepository pantallaRepository;
 
@@ -30,5 +30,7 @@ public class PantallaService  extends  DispositivoService{
         return pantallaRepository.findAll();
     }
 
-
+    public Pantalla getPantallaById(Long id) {
+        return pantallaRepository.findById(id).orElse(null);
+    }
 }
